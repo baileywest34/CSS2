@@ -1,0 +1,77 @@
+.box-one {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.box-two {
+    border: 15px solid blue;
+    width: 475px;
+}
+
+.box-rgba {
+    padding: 30px;
+    background-color: rgba(0, 153, 255, .3);
+    width: 350px;
+}
+
+.box-longhand {
+    border-width: 20px;
+    border-style: solid;
+    border-color: red
+}
+
+.box-shorthand {
+    border: 20px solid blue;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 16px;
+}
+
+.box-specific {
+    background-color: coral;
+}
+
+.group1, .group2, .group3 {
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+    margin: 15px;
+    width: 300px;
+}
+
+main section h5 {
+    background-color: cyan;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 3.5em;
+}
+
+.block {
+    background-color: black;
+    color: azure;
+    padding: 1.5em;
+
+}
+
+.inline {
+    background-color: black;
+    color: azure;
+}
+
+.block-img {
+    background-image:url(pictures/circuit.gif); background-repeat: repeat-y;
+   color: azure;
+
+}
+
+.inline-img {
+    background-image: url(pictures/pixel.gif); background-repeat: repeat-y;
+    padding: 15px; 
+
+}
