@@ -91,3 +91,16 @@ main section h5 {
   background-color: coral;
   padding: 20px;
 }
+
+.link-style, .link-style:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.default-styles {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
